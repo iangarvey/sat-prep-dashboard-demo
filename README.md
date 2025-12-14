@@ -1,4 +1,7 @@
+
 # SAT Prep Dashboard - Achievable Technical Interview
+
+[🌐 Live Demo on Vercel](https://sat-prep-dashboard-demo.vercel.app/)
 
 ## 🎯 Project Overview
 
@@ -58,7 +61,7 @@ Every element follows one principle: **Only look behind to figure out what to do
 - Highlights strengths and weaknesses by color
 - Directly informs Today's Priority and Suggested Practice Sessions by surfacing weakest skills
 
-**Today's Priority: The One Thing Rule:**
+**Today's Priority: The One Thing Rule**
 ```typescript
 // If you can only do ONE study session today:
 Geometry & Trigonometry    // Highest leverage topic
@@ -72,6 +75,7 @@ High Impact (15+ points)  // Maximum ROI
 - [25 min] Quick Math Boost → "I'm tired but want momentum"
 - [60 min] Geometry Proofs → "I have a standard study window"
 - [150 min] Practice Test → "I'm fresh and want deep practice"
+
 *User autonomy: Choose based on real-life constraints*
 
 ### Deeper Dive: Feedback & AI Insights (2nd Tab)
@@ -239,6 +243,7 @@ npm run build
 1. **Interactive Skill Tree** → Click nodes to focus study
 2. **Study Session Timer** → Pomodoro integration with priority tracking
 3. **Progress Analytics** → Historical score trends with D3.js
+4. **Flashcard Feature** → To get the most out of 5, 10, 15 minutes 
 
 ### Production Roadmap
 1. **Backend API** → Real user progress tracking
